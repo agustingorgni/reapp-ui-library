@@ -1,6 +1,6 @@
 {
   "name": "@agustingorgni/reapp-ui-library",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Reapp UI library",
   "main": "dist/index.js",
   "module": "dist/index.js",
