@@ -3,9 +3,12 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const nodeExternals = require('webpack-node-externals');
 
 module.exports = {
-    entry: path.resolve(__dirname, './src/index.jsx'),
+    entry: {
+        './src/button/index': './src/button/index.jsx',
+        './src/label/index': './src/label/index.jsx',
+    },
     output: {
-        filename: 'index.js',
+        filename: '[name].js',
         path: path.resolve(__dirname, './dist'),
         libraryTarget: 'umd',
         umdNamedDefine: true,
