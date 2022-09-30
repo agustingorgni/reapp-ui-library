@@ -2,7 +2,9 @@
   "name": "@agustingorgni/reapp-ui-library",
   "version": "0.0.1",
   "description": "Reapp UI library",
-  "main": "src/index.js",
+  "main": "dist/index.jsx",
+  "module": "dist/index.js",
+  "source": "src/index.jsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
