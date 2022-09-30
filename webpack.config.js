@@ -23,7 +23,10 @@ module.exports = {
         rules: [
             {
                 test: /\.(js|jsx)?$/,
-                exclude: /node_modules/,
+                exclude: [
+                    /node_modules/,
+                    path.resolve(__dirname, 'webpack.config.js'),
+                ],
                 use: {
                     loader: 'babel-loader',
                     options: {
