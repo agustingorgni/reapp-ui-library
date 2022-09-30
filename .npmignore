@@ -2,3 +2,4 @@ node_modules/
 .storybook/
 webpack.config.js
 src/
+docs/
