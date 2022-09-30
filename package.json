@@ -1,0 +1,29 @@
+{
+  "name": "@agustingorgni/reapp-ui-library",
+  "version": "0.0.1",
+  "description": "Reapp UI library",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agustingorgni/reapp-ui-library.git"
+  },
+  "author": "agustingorgni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agustingorgni/reapp-ui-library/issues"
+  },
+  "homepage": "https://github.com/agustingorgni/reapp-ui-library#readme",
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "react": "^18.2.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.8.1",
+    "styled-components": "^5.3.6"
+  }
+}
