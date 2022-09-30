@@ -4,3 +4,4 @@ webpack.config.js
 src/
 docs/
 docs-build/
+README.md
